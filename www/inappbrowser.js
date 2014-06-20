@@ -1,4 +1,4 @@
-/*
+cordova.define("org.apache.cordova.inappbrowser.inappbrowser", function(require, exports, module) { /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -44,6 +44,9 @@ InAppBrowser.prototype = {
     },
     show: function (eventname) {
       exec(null, null, "InAppBrowser", "show", []);
+    },
+    hide: function (eventname) {
+        exec(null, null, "InAppBrowser", "hide", []);
     },
     addEventListener: function (eventname,f) {
         if (eventname in this.channels) {
@@ -96,3 +99,5 @@ module.exports = function(strUrl, strWindowName, strWindowFeatures) {
     return iab;
 };
 
+
+});
