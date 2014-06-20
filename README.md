@@ -31,3 +31,8 @@ Plugin documentation: [doc/index.md](doc/index.md)
 
 * the caption is hided. 
 * add a hide command for the in app web browser.
+
+
+#How to install?
+
+    cordova plugin add https://github.com/dorm7/cordova-plugin-inappbrowser/
