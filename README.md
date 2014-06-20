@@ -20,3 +20,14 @@
 # org.apache.cordova.inappbrowser
 
 Plugin documentation: [doc/index.md](doc/index.md)
+
+
+# Note about modification. 
+
+     Codova will automaticaly add some lines of code at the begining your inappbrowser.js, you can see the difference after you install it. you can compare with /platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js
+
+
+# Extra Feture
+
+* the caption is hided. 
+* add a hide command for the in app web browser.
